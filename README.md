@@ -68,3 +68,10 @@ npm run build
 ## 📜 License
 
 This project is licensed under the MIT License.
+
+## 📞 Contact
+
+- **Author**: Advic Tech
+- **Email**: developer@advic.io
+- **Issues**: Report bugs or suggestions on the GitHub Issues page.
+
