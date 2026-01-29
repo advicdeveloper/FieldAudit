@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="Deven.Pcf.FieldAudit"
+           constructor="FieldAuditTrail"
+           version="0.0.1"
+           display-name-key="FieldAuditTrail"
+           description-key="FieldAuditTrail description"
+           control-type="standard">
+
+    <external-service-usage enabled="false" />
+
+    <!-- INPUT (bound field value) -->
+    <property name="value"
+              display-name-key="Field Value"
+              description-key="The field to display and track history for"
+              of-type="SingleLine.Text"
+              usage="bound"
+              required="true" />
+
+
+    <resources>
+      <code path="index.ts" order="1" />
+    </resources>
+
+    <feature-usage>
+      <uses-feature name="WebAPI" required="true" />
+      <uses-feature name="Utility" required="true" />
+    </feature-usage>
+
+  </control>
+</manifest>
