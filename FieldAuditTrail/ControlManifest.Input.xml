@@ -2,7 +2,7 @@
 <manifest>
   <control namespace="Deven.Pcf.FieldAudit"
            constructor="FieldAuditTrail"
-           version="0.0.1"
+           version="1.0.1"
            display-name-key="FieldAuditTrail"
            description-key="FieldAuditTrail description"
            control-type="standard">
